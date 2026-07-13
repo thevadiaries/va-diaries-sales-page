@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Your Playbook is Ready! — The VA Diaries</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #1A1A2E;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+
+  .card {
+    background: #fff;
+    color: #1A1A2E;
+    border-radius: 20px;
+    max-width: 560px;
+    width: 100%;
+    padding: 48px 40px;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  }
+
+  .emoji { font-size: 56px; margin-bottom: 16px; }
+
+  .brand {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #E91E8C;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #1A1A2E;
+    margin-bottom: 12px;
+    line-height: 1.3;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 32px;
+    line-height: 1.6;
+  }
+
+  .download-btn {
+    display: inline-block;
+    background: #E91E8C;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 18px 40px;
+    border-radius: 50px;
+    margin-bottom: 16px;
+    transition: background 0.2s, transform 0.1s;
+    width: 100%;
+  }
+  .download-btn:hover {
+    background: #C2185B;
+    transform: translateY(-2px);
+  }
+
+  .view-btn {
+    display: inline-block;
+    background: transparent;
+    color: #7B2D8B;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 32px;
+    border-radius: 50px;
+    border: 2px solid #7B2D8B;
+    margin-bottom: 32px;
+    transition: all 0.2s;
+    width: 100%;
+  }
+  .view-btn:hover {
+    background: #7B2D8B;
+    color: #fff;
+  }
+
+  .divider {
+    border: none;
+    border-top: 1px solid #f0f0f0;
+    margin: 24px 0;
+  }
+
+  .email-section {
+    background: #FCE4F3;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 24px;
+    text-align: left;
+  }
+  .email-section h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #E91E8C;
+    margin-bottom: 6px;
+  }
+  .email-section p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+  }
+
+  .steps {
+    text-align: left;
+    margin-bottom: 24px;
+  }
+  .steps h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1A1A2E;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .step {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 10px;
+  }
+  .step-num {
+    background: #E91E8C;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .step-text {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.5;
+  }
+
+  .footer-note {
+    font-size: 13px;
+    color: #999;
+    margin-top: 8px;
+  }
+  .footer-note a {
+    color: #E91E8C;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="emoji">🎉</div>
+  <div class="brand">The VA Diaries</div>
+  <h1>Your Playbook is Here!</h1>
+  <p class="subtitle">Payment confirmed. Thank you so much! Your copy of <strong>From Scrolling to Earning: The 14-Day Social Media VA Playbook</strong> is ready to download.</p>
+
+  <a href="https://docs.google.com/document/d/1pXOW3fmPiB3_DBRH1Vz3JaJJ7JoAPys8R99ROo-zLj8/export?format=pdf" class="download-btn" download>
+    ⬇ Download Your Playbook (PDF)
+  </a>
+
+  <a href="https://docs.google.com/document/d/1pXOW3fmPiB3_DBRH1Vz3JaJJ7JoAPys8R99ROo-zLj8/edit?usp=sharing" class="view-btn" target="_blank">
+    👁 View in Google Docs
+  </a>
+
+  <div class="email-section">
+    <h3>📧 Want it sent to your email too?</h3>
+    <p>Fill out the short form below with your name and email and I'll send your download link directly to your inbox within 24 hours on weekdays.</p>
+  </div>
+
+  <!-- Replace this with your actual Google Form embed link -->
+  <a href="YOUR_GOOGLE_FORM_LINK_HERE" class="view-btn" target="_blank" style="border-color:#E91E8C; color:#E91E8C;">
+    ✉ Send to My Email
+  </a>
+
+  <hr class="divider"/>
+
+  <div class="steps">
+    <h3>What to do next</h3>
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-text"><strong>Download or save your Playbook</strong> to your phone or laptop right now so you always have access.</div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-text"><strong>Start with Day 1 today.</strong> Don't wait. Even 20 minutes is enough to get going.</div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-text"><strong>Follow along on Instagram</strong> for daily tips, encouragement, and behind-the-scenes content.</div>
+    </div>
+  </div>
+
+  <p class="footer-note">
+    Questions? Message me on Instagram <a href="https://instagram.com/thevadiaries" target="_blank">@thevadiaries</a>
+  </p>
+</div>
+
+</body>
+</html>
